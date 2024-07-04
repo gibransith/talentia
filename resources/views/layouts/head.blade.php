@@ -1,0 +1,1 @@
+<link href="{{URL::asset('components/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>

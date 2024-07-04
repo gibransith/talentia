@@ -1,0 +1,50 @@
+.borde{
+	border: 1px solid red;
+}
+
+.bg-auth {
+  /*padding: 40px 0;
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;*/
+  background-image: url('../assets/images/logo/portada.png') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.borde{
+  border: 1px solid red;
+}
+
+.oculto{
+  display: none;
+}
+
+.select2-container {
+  width: 100% !important;
+}
+
+.select2-container--open {
+  z-index: 9999999
+}
+
+.is-invalid + .select2-container--bootstrap .select2-selection--single {
+    border: 1px solid #f44336;
+}
+
+.datepicker {
+  z-index: 1600 !important; /* has to be larger than 1050 */
+}
+
+/*El espacio entre titulo y el contendido*/
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
